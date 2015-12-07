@@ -1,0 +1,20 @@
+mongodb:
+  build: mongo/.
+  ports:
+   - "37017:27017"
+
+mongo-seed:
+  build: mongo-seed/.
+  links:
+   - mongodb
+  environment:
+    MONGO_PORT: 37017
+
+node:
+  build: node/.
+  ports:
+    - "13000:3000"
+  links:
+    - mongodb
+  environment:
+    MONGO_PORT: 37017

@@ -1,0 +1,9 @@
+{
+  "name": "node-mongo-docker-example",
+  "version": "1.0.0",
+  "main": "app.js",
+  "dependencies": {
+    "express": "^4.13.3",
+    "mongodb": "^2.1.0"
+  }
+}

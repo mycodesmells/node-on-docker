@@ -113,4 +113,4 @@ There are a couple of thins you get from this output. First is the ID of the con
   
 As you can see, the single application can be now easily tested on various environments. 
 
-The source code of this example is also available on [GitHub]().
+The source code of this example is also available on [GitHub](https://github.com/mycodesmells/node-on-docker).
