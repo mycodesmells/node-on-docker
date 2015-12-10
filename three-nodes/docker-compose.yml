@@ -1,5 +1,5 @@
 mongodb:
-  build: mongo/.
+  image: mongo:3.2
   ports:
    - "37017:27017"
 
